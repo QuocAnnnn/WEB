@@ -1,0 +1,53 @@
+.head{
+    display: flex;
+    background-color: #2c2d28;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 1440px;
+   height: 58px;
+}
+
+.logo{
+    width: 238px;
+    height: 58px;
+    text-align: center;
+   
+}
+.trangchu{
+    width: 150px;
+    height: 58px;
+    text-align: center;
+    
+}
+.tintuc{
+    width: 120px;
+    height: 58px;
+    text-align: center;        
+}
+.baohanh{
+    width: 200px;
+    height: 58px;
+    text-align: center; 
+}
+.search{
+height: 30px;
+margin-top: 8.5px;
+}
+.hotro{
+width: 120px;
+    height: 58px;
+    text-align: center;
+}
+.giohang{
+text-align: center;
+color: white;
+width: 200px;
+height: 58px;
+
+}
+.user{
+width: 200px;
+height: 58px;
+text-align: center;
+line-height: 58px
+}
