@@ -1,9 +1,17 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .head{
     display: flex;
     background-color: #2c2d28;
    color: white;
    font-family: Arial, Helvetica, sans-serif;
-   width: 1440px;
+   width: 100%;
    height: 58px;
 }
 
@@ -11,49 +19,69 @@
     width: 238px;
     height: 58px;
     text-align: center;
+    line-height: 58px;
    
 }
-.trangchu{
+.banner{
+    text-align: center;
+}
+.page{
     width: 150px;
     height: 58px;
     text-align: center;
+    line-height: 58px;
     
 }
-.tintuc{
+.news{
     width: 120px;
     height: 58px;
-    text-align: center;        
+    text-align: center;  
+    line-height: 58px  ;    
 }
-.baohanh{
+.bao-hanh{
     width: 200px;
     height: 58px;
     text-align: center; 
+    line-height: 58px
 }
-.search{
-height: 30px;
-margin-top: 8.5px;
-}
-.hotro{
+    .search{
+    height: 30px;
+    margin-top: 8.5px;
+    }
+    .buton-search{
+        height: 37px;
+        margin-top: 8.5px;
+        margin-left: 3px;
+        
+    }
+    
+.support{
 width: 120px;
     height: 58px;
     text-align: center;
+    line-height: 58px
 }
-.giohang{
-text-align: center;
-color: white;
-width: 200px;
-height: 58px;
-
+    .gio-hang{
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    width: 100px;
+    height: 38px;
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: 0.2px solid;
+    background-color: gray;
 }
-.user{
-width: 200px;
-height: 58px;
-text-align: center;
-line-height: 58px
-}
+    .user{
+    width: 200px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px
+    }
 .link{
     background-color:#FFB238;
-    width:1440px;
+    width:100%;
     height: 58px;
 }
 .top10{
@@ -62,34 +90,20 @@ line-height: 58px
 .sanpham{
     display: flex;
 }
-.sanpham1
-{
-    width: 307px;
-    height: 332px;
-    margin-right: 30px;
-    margin-left: 100px;
-    border-style: solid;
-    border-width: 1px;
-    text-align: center;
-   
-}
+
 .sanpham1
 {
     width: 307px;
     height: 332px;
     margin-left: 80px;
-    border-style: solid;
-    border-width: 1px;
     text-align: center;
-   
+    
 }
 .sanpham2
 {
     width: 307px;
     height: 332px;
     margin-right: 25px;
-    border-style: solid;
-    border-width: 1px;
     text-align: center;
    
 }
@@ -98,9 +112,8 @@ line-height: 58px
     width: 307px;
     height: 332px;
     margin-right: 25px;
-    border-style: solid;
-    border-width: 1px;
     text-align: center;
+    
    
 }
 .sanpham4
@@ -108,9 +121,8 @@ line-height: 58px
     width: 307px;
     height: 332px;
     margin-right: 25px;
-    border-style: solid;
-    border-width: 1px;
     text-align: center;
+   
    
 }
 .sp1{
@@ -130,3 +142,40 @@ height: 180px;
     width: 180px;
     height: 180px;
 }
+.sanpham1:hover{
+   border-radius: 2px;
+   border: 0.2px solid;
+   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+}
+.sanpham2:hover{
+    border-radius: 2px;
+    border: 0.2px solid;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+ }
+   
+ .sanpham3:hover{
+    border-radius: 2px;
+    border: 0.2px solid;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+    }
+   
+    .sanpham4:hover{
+    border-radius: 2px;
+    border: 0.2px solid;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+    }
+    .sap-xep{
+    float: right;
+    }
+    .select1{
+    width: 224px;
+    height: 40px;}
+    .last{
+        display: flex;
+    }
+    .product{
+        display: flex;
+    }
+    
+ 
+   
