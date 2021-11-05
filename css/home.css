@@ -51,3 +51,82 @@ height: 58px;
 text-align: center;
 line-height: 58px
 }
+.link{
+    background-color:#FFB238;
+    width:1440px;
+    height: 58px;
+}
+.top10{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sanpham{
+    display: flex;
+}
+.sanpham1
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 30px;
+    margin-left: 100px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+   
+}
+.sanpham1
+{
+    width: 307px;
+    height: 332px;
+    margin-left: 80px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+   
+}
+.sanpham2
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 25px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+   
+}
+.sanpham3
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 25px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+   
+}
+.sanpham4
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 25px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+   
+}
+.sp1{
+    width: 180px;
+height: 180px;
+
+}
+.sp2{
+    width: 180px;
+    height: 180px;
+}
+.sp3{
+    width: 180px;
+    height: 180px;
+}
+.sp4{
+    width: 180px;
+    height: 180px;
+}
