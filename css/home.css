@@ -1,0 +1,189 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.head{
+    display: flex;
+    background-color: #2c2d28;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+   height: 58px;
+}
+
+.logo{
+    width: 238px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+   
+}
+.banner{
+    text-align: center;
+}
+.page{
+    width: 150px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px;
+    
+}
+.news{
+    width: 120px;
+    height: 58px;
+    text-align: center;  
+    line-height: 58px  ;    
+}
+.bao-hanh{
+    width: 200px;
+    height: 58px;
+    text-align: center; 
+    line-height: 58px
+}
+    .search{
+    height: 30px;
+    margin-top: 8.5px;
+    }
+    .buton-search{
+        height: 37px;
+        margin-top: 8.5px;
+        margin-left: 3px;
+        
+    }
+    
+.support{
+width: 120px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px
+}
+    .gio-hang{
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    width: 100px;
+    height: 38px;
+    margin-top: 8px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: 0.2px solid;
+    background-color: gray;
+}
+    .user{
+    width: 200px;
+    height: 58px;
+    text-align: center;
+    line-height: 58px
+    }
+.link{
+    background-color:#FFB238;
+    width:100%;
+    height: 58px;
+}
+.top10{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sanpham{
+    display: flex;
+}
+
+.sanpham1
+{
+    width: 307px;
+    height: 332px;
+    margin-left: 80px;
+    text-align: center;
+    
+}
+.sanpham2
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 25px;
+    text-align: center;
+   
+}
+.sanpham3
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 25px;
+    text-align: center;
+    
+   
+}
+.sanpham4
+{
+    width: 307px;
+    height: 332px;
+    margin-right: 25px;
+    text-align: center;
+   
+   
+}
+.sp1{
+    width: 180px;
+height: 180px;
+
+}
+.sp2{
+    width: 180px;
+    height: 180px;
+}
+.sp3{
+    width: 180px;
+    height: 180px;
+}
+.sp4{
+    width: 180px;
+    height: 180px;
+}
+.sanpham1:hover{
+   border-radius: 2px;
+   border: 0.2px solid;
+   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+}
+.sanpham2:hover{
+    border-radius: 2px;
+    border: 0.2px solid;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+ }
+   
+ .sanpham3:hover{
+    border-radius: 2px;
+    border: 0.2px solid;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+    }
+   
+    .sanpham4:hover{
+    border-radius: 2px;
+    border: 0.2px solid;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px -33px 5px -26px rgba(0,0,0,0);
+    }
+    .sap-xep{
+    float: right;
+    }
+    .select1{
+    width: 224px;
+    height: 50px;}
+    .last{
+        display: flex;
+    }
+    .product-phu{
+        display: flex;
+    }
+    .product-phu1{
+        display: flex;
+    }
+    
+    
+ 
+   
