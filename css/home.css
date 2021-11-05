@@ -5,6 +5,10 @@ body,html{
 .container{
     padding-left: 15px;
     padding-right: 15px;
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
 }
 .head{
     display: flex;
