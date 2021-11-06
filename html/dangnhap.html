@@ -6,7 +6,6 @@
     <style>
         .container{
         width: 100%;
-        border: solid 1px black;
         margin:  0 auto;
         background-color: rgb(255, 255, 255);
         position: relative;
@@ -19,44 +18,46 @@
         }
         .dangnhap{
         font-size: 25px;
-        width: 250px;
+        width: 480px;
         height: 50px;
         border-radius: 8px;
         border: 1px solid rgb(197, 197, 197);
-        background-color: rgb(233, 83, 64);
+        background-color: orange;
         font-weight: bold;
         color: white;
         position: relative;
         top: 20px;
         }
         .fb{
-        width: 300px;
-        height: 120px;
         border-radius: 8px;
+        margin-top: 25px;
         background-color: rgb(55, 115, 228);
         color: white;
         position: relative;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        font-size: 25px;
+        border: 1px solid rgb(197, 197, 197);
+        font-weight: bold;
         }
         .gg{
-        width: 300px;
-        height:120px;
         border-radius: 8px;
         background-color: rgb(109, 156, 243);
         color: white;
-        position: relative;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        font-size: 25px;
+        border: 1px solid rgb(197, 197, 197);
+        font-weight: bold;
+        justify-content: center;
         }
         .form1{
         height: 550px;
-        width: 500px;
-        margin-top: 70px;
+        width: 580px;
+        margin-top: 20px;
         border: 1px solid white;
         border-radius: 10px;
         background-color: white;
-        position: relative;
-        left: 50px;
-        bottom: 43px;
         box-shadow: 1px 1px 5px 5px rgb(226, 226, 226);
         text-align: center;
         }
@@ -70,14 +71,26 @@
         font-weight: bold;
         }
         .form3{
-        margin-top: 20px;
         font-size: 25px;
-        width: 470px;
-        height: 60px;
-        margin-top: 25px;
-        border-radius: 8px;
-        border: 1px solid rgb(197, 197, 197);
+        width: 480px;
+        height: 50px;
+        border: 1px;
+        background-color: rgb(14, 56, 146);
         font-weight: bold;
+        color: white;
+        position: relative;
+        top: 20px;
+        }
+        .form4{
+        font-size: 25px;
+        width: 480px;
+        height: 50px;
+        border: 1px;
+        background-color: rgb(125, 160, 255);
+        font-weight: bold;
+        color: white;
+        position: relative;
+        margin-top: 40px;
         }
         .quenmk{
         display: flex;
@@ -88,15 +101,46 @@
             margin-top: 15px;
             font-weight: bold;
         }
+        .top{
+            display:flex;
+            background-color: orange;
+            width: 100%;
+            height: 70px;
+            color: white;
+            font-weight: bold;
+            font-family: Arial;
+        }
+        .bot{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            width: 100%;
+            height: 70px;
+            background-color: rgb(228, 226, 226);
+            text-align: center; 
+        }
+        b{
+            color: red;
+        }
+        .banner{
+            margin-top: 27px;
+            margin-left: 10px;
+        }
+        .banner2{
+            margin-top: 27px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="form">
+    <div class="top">
+        <a class="banner" href="/html/home.html">Trở về</a>
+    </div>
+    <div class="container">  
+        <div class="form">   
             <div class="form1">
                 <div class="luachon">
-                    <a style="margin-left: 20px;" href="/dangki.html">ĐĂNG KÍ</a>
-                    <a style="margin-left: 40px;" href="/dangnhap.html">ĐĂNG NHẬP</a>
+                    <a style="margin-left: 20px;" href="/html/dangki.html">ĐĂNG KÍ</a>
+                    <a style="margin-left: 40px;" href="/html/dangnhap.html">ĐĂNG NHẬP</a>
                 </div>
                 <div>
                     <input class="form2" type="value" placeholder="Email/Số điện thoại">
@@ -110,7 +154,7 @@
                 <div>
                     <div class="quenmk">
                         <a style="margin-left: 20px;" href="">Quên mật khẩu?</a>
-                        <a style="margin-left: 200px;" href="">Đăng nhập với SMS</a>
+                        <a style="margin-left: 270px;" href="">Đăng nhập với SMS</a>
                     </div>
                 </div>
                 <div>
@@ -122,18 +166,16 @@
                     </div>
                 </div>
                 <div>
-                    <a class="fb form3">
-                        <img src="https://iconape.com/wp-content/png_logo_vector/facebook-f-logo-2019.png" width="20" height="20" alt="icon-fb">
-                        Đăng nhập bằng Facebook
-                    </a>
+                    <input type="submit" class="form3" value="ĐĂNG NHẬP BẰNG FACEBOOK">
                 </div>
                 <div>
-                    <a class="gg form3">
-                        <img src="https://freesvg.org/img/1534129544.png" width="20" height="20" alt="icon-fb">
-                        Đăng nhập bằng Google
-                    </a>   
+                    <input type="submit" class="form4" value="ĐĂNG NHẬP BẰNG GOOGLE">
                 </div> 
             </div>
+    
         </div>
+    </div>
+    <div class="bot">
+            <a class="banner2">Bạn khó khăn khi đăng nhập, đăng ký? Gọi <b>1800 6800</b> để được hỗ trợ tốt nhất.</a>
     </div>
 </body>
